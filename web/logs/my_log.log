@@ -1,0 +1,742 @@
+2019-03-14 11:14:38 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 11:14:38 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 11:14:38 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 11:14:38 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 11:14:38 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 11:14:38  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 11:14:38  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:14:38 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 11:14:38 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 11:14:38 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 11:14:38 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 11:14:38 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 11:14:38 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 11:14:38 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 11:14:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 11:14:39 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 11:14:39 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 11:14:39 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 11:14:39 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 11:14:39 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:14:39 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:14:39 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:14:39 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 11:14:39 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 11:14:39  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 11:14:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 11:14:39 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 11:14:39 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 11:14:39 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 11:14:39 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 11:14:39 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 11:14:39 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 11:14:39 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:14:39 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:14:39 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:14:39 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:14:39 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:14:39 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 11:14:39 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 11:14:39 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 11:14:39 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 11:14:39 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 11:14:39 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 11:14:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 11:14:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 11:14:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 11:14:40 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 11:14:40 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 11:14:40 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:14:40 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 11:14:40 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 11:14:40 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 11:14:40 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 11:14:40 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:14:40 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 11:14:40 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 11:14:40 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:14:40 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:14:40 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 11:14:38 CST 2019
+2019-03-14 11:14:40 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 11:14:40  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-14 11:15:14 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 11:15:14 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 11:15:14 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 11:15:14 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 11:15:14 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 11:15:14  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 11:15:14  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:15:14 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 11:15:14 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 11:15:14 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 11:15:14 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 11:15:14 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 11:15:14 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 11:15:14 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 11:15:14 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 11:15:14 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 11:15:14 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 11:15:14 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 11:15:14 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:15:14 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:15:14 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:15:14 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 11:15:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 11:15:14 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 11:15:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 11:15:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 11:15:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 11:15:15  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 11:15:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 11:15:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 11:15:15 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 11:15:15 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 11:15:15 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 11:15:15 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 11:15:15 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 11:15:15 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 11:15:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:15:15 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:15:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:15:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:15:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:15:15 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 11:15:15 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 11:15:15 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 11:15:15 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 11:15:15 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 11:15:15 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 11:15:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 11:15:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 11:15:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 11:15:16 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 11:15:16 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 11:15:16 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:15:16 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 11:15:16 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 11:15:16 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 11:15:16 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 11:15:16 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:15:16 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 11:15:16 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 11:15:16 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:15:16 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:15:16 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 11:15:14 CST 2019
+2019-03-14 11:15:16 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 11:15:16  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-14 11:16:23 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 11:16:23 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 11:16:23 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 11:16:23 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 11:16:23 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 11:16:23  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 11:16:23  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:16:23 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 11:16:23 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 11:16:23 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 11:16:23 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 11:16:23 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 11:16:23 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 11:16:23 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 11:16:23 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 11:16:23 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 11:16:23 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 11:16:23 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 11:16:23 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:16:23 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:16:23 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:16:23 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 11:16:23 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 11:16:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 11:16:24  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 11:16:24 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 11:16:24 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 11:16:24 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 11:16:24 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 11:16:24 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 11:16:24 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 11:16:24 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 11:16:24 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 11:16:24 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:16:24 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:16:24 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:16:24 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:16:24 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:16:24 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 11:16:24 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 11:16:24 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 11:16:24 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 11:16:24 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 11:16:24 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 11:16:24 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 11:16:24 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 11:16:24 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 11:16:24 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 11:16:24 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 11:16:24 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:16:24 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 11:16:24 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 11:16:24 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 11:16:24 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 11:16:24 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:16:24 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 11:16:24 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 11:16:24 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:16:24 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:16:24 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 11:16:23 CST 2019
+2019-03-14 11:16:24 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 11:16:24  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-14 11:24:32 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 11:24:32 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 11:24:32 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 11:24:32 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 11:24:32 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 11:24:32  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 11:24:32  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 11:24:32 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 11:24:32 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 11:24:32 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 11:24:33 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 11:24:33 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 11:24:33 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 11:24:33 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 11:24:33 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 11:24:33 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 11:24:33 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 11:24:33 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 11:24:33 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:24:33 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:24:33 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:24:33 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 11:24:33 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 11:24:33 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 11:24:34  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 11:24:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 11:24:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 11:24:34 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 11:24:34 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 11:24:34 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 11:24:34 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 11:24:34 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 11:24:34 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 11:24:34 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:24:34 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 11:24:34 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:24:34 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 11:24:34 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 11:24:34 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 11:24:34 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 11:24:34 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 11:24:34 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 11:24:34 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 11:24:34 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 11:24:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 11:24:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 11:24:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 11:24:34 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 11:24:34 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 11:24:34 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:24:34 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 11:24:34 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 11:24:34 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 11:24:34 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 11:24:34 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:24:34 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 11:24:34 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 11:24:34 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:24:34 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 11:24:34 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 11:24:33 CST 2019
+2019-03-14 11:24:34 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 11:24:34  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-14 12:33:54 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:54 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 12:33:54 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 12:33:54 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 12:33:54 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 12:33:55 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 12:33:55  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 12:33:55  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:33:55 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 12:33:55 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 12:33:55 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 12:33:55 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 12:33:55 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 12:33:55 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 12:33:55 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 12:33:55 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 12:33:55 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 12:33:55 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 12:33:55 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 12:33:55 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:33:55 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:33:55 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:33:55 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 12:33:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 12:33:56 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 12:33:56  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 12:33:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 12:33:56 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 12:33:56 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 12:33:56 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 12:33:56 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 12:33:56 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 12:33:56 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 12:33:56 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:33:56 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:33:56 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 12:33:56 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 12:33:56 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 12:33:56 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 12:33:56 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 12:33:56 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 12:33:56 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 12:33:56 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 12:33:56 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 12:33:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 12:33:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 12:33:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 12:33:57 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 12:33:57 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 12:33:57 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:33:57 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 12:33:57 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 12:33:57 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 12:33:57 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 12:33:57 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:33:57 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 12:33:57 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 12:33:57 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:33:57 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:33:57 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 12:33:55 CST 2019
+2019-03-14 12:33:57 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 12:33:57  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-14 12:45:28 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-14 12:45:28 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-14 12:45:28 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-14 12:45:28 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-14 12:45:28 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-14 12:45:28  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-14 12:45:28  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-14 12:45:28 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-14 12:45:28 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-14 12:45:28 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-14 12:45:28 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-14 12:45:28 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-14 12:45:28 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-14 12:45:28 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-14 12:45:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-14 12:45:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-14 12:45:29 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-14 12:45:29 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-14 12:45:29 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-14 12:45:29 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-14 12:45:29 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:45:29 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:45:29 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:45:29 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-14 12:45:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-14 12:45:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-14 12:45:30  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-14 12:45:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-14 12:45:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-14 12:45:30 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-14 12:45:30 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-14 12:45:30 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-14 12:45:30 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-14 12:45:30 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-14 12:45:30 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-14 12:45:30 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:45:30 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-14 12:45:30 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 12:45:30 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-14 12:45:30 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-14 12:45:30 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-14 12:45:30 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-14 12:45:30 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-14 12:45:30 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-14 12:45:30 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-14 12:45:30 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-14 12:45:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-14 12:45:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-14 12:45:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-14 12:45:30 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-14 12:45:30 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@c94fd30 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-14 12:45:30 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@335b5620] for JDBC transaction
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] to manual commit
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:45:30 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] will be managed by Spring
+2019-03-14 12:45:30 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 
+2019-03-14 12:45:30 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-14 12:45:30 DEBUG selectCurrentCourses:159 - <==      Total: 3
+2019-03-14 12:45:30 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:45:30 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16ce702d]
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@335b5620]
+2019-03-14 12:45:30 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@335b5620] after transaction
+2019-03-14 12:45:30 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:45:30 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-14 12:45:30 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Thu Mar 14 12:45:28 CST 2019
+2019-03-14 12:45:30 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-14 12:45:30  INFO DruidDataSource:1928 - {dataSource-1} closed
+2019-03-17 22:21:17 DEBUG SpringJUnit4ClassRunner:139 - SpringJUnit4ClassRunner constructor called with [class com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG BootstrapUtils:96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-17 22:21:17 DEBUG BootstrapUtils:79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-17 22:21:17 DEBUG BootstrapUtils:132 - Instantiating TestContextBootstrapper for test class [com.spring.web.service.impl.CourseServiceImplTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-03-17 22:21:17 DEBUG AbstractDelegatingSmartContextLoader:263 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@cc285f4 declaringClass = 'com.spring.web.service.impl.CourseServiceImplTest', classes = '{}', locations = '{/spring_mybatis.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-03-17 22:21:17 DEBUG ActiveProfilesUtils:79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG DefaultTestContextBootstrapper:125 - @TestExecutionListeners is not present for class [com.spring.web.service.impl.CourseServiceImplTest]: using defaults.
+2019-03-17 22:21:17  INFO DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 22:21:17  INFO DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56235b8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3632be31, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5abca1e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2286778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e9ba398, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d7b4f4c]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG AbstractDirtiesContextTestExecutionListener:142 - Before test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG ProfileValueUtils:83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.web.service.impl.CourseServiceImplTest]
+2019-03-17 22:21:17 DEBUG DependencyInjectionTestExecutionListener:81 - Performing dependency injection for test context [[DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2019-03-17 22:21:17 DEBUG AbstractDelegatingSmartContextLoader:273 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-03-17 22:21:17 DEBUG AbstractGenericContextLoader:109 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-03-17 22:21:18 DEBUG StandardEnvironment:252 - Activating profiles []
+2019-03-17 22:21:18 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\service\impl\CourseServiceImpl.class]
+2019-03-17 22:21:18 DEBUG XmlBeanDefinitionReader:395 - Loaded 16 bean definitions from class path resource [spring_mybatis.xml]
+2019-03-17 22:21:18 DEBUG GenericApplicationContext:594 - Refreshing org.springframework.context.support.GenericApplicationContext@15d0c81b
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tk.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2019-03-17 22:21:18 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\CourseDAO.class]
+2019-03-17 22:21:18 DEBUG ClassPathMapperScanner:437 - Identified candidate component class: file [D:\spring-study\web\target\classes\com\spring\web\dao\SysUserDAO.class]
+2019-03-17 22:21:18 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'courseDAO' and 'com.spring.web.dao.CourseDAO' mapperInterface
+2019-03-17 22:21:18 DEBUG ClassPathMapperScanner:160 - Creating MapperFactoryBean with name 'sysUserDAO' and 'com.spring.web.dao.SysUserDAO' mapperInterface
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2019-03-17 22:21:18 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2019-03-17 22:21:18 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2019-03-17 22:21:18 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2019-03-17 22:21:18 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-03-17 22:21:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseServiceImpl'
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'courseDAO'
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2019-03-17 22:21:19 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2019-03-17 22:21:19  INFO DruidDataSource:991 - {dataSource-1} inited
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2019-03-17 22:21:19 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2019-03-17 22:21:19 DEBUG SqlSessionFactoryBean:49 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-03-17 22:21:20 DEBUG VFS:111 - Class not found: org.jboss.vfs.VFS
+2019-03-17 22:21:20 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2019-03-17 22:21:20 DEBUG VFS:111 - Class not found: org.jboss.vfs.VirtualFile
+2019-03-17 22:21:20 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-03-17 22:21:20 DEBUG VFS:77 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-03-17 22:21:20 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-17 22:21:20 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: Course.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: CourseVO.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: SysUser.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:113 - Listing file:/D:/spring-study/web/target/classes/com/spring/web/entity
+2019-03-17 22:21:20 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/Course.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-17 22:21:20 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/CourseVO.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: ����   4 �
+2019-03-17 22:21:20 DEBUG DefaultVFS:222 - Find JAR URL: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:248 - Not a JAR: file:/D:/spring-study/web/target/classes/com/spring/web/entity/SysUser.class
+2019-03-17 22:21:20 DEBUG DefaultVFS:102 - Reader entry: ����   4 ~
+2019-03-17 22:21:20 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.Course matches criteria [is assignable to Object]
+2019-03-17 22:21:20 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.CourseVO matches criteria [is assignable to Object]
+2019-03-17 22:21:20 DEBUG ResolverUtil:256 - Checking to see if class com.spring.web.entity.SysUser matches criteria [is assignable to Object]
+2019-03-17 22:21:20 DEBUG SqlSessionFactoryBean:49 - Scanned package: 'com.spring.web.entity' for aliases
+2019-03-17 22:21:20 DEBUG SqlSessionFactoryBean:49 - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-17 22:21:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'manager'
+2019-03-17 22:21:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2019-03-17 22:21:20 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sysUserDAO'
+2019-03-17 22:21:20 DEBUG DefaultCacheAwareContextLoaderDelegate:119 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-03-17 22:21:20 DEBUG cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@76f4b65 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-03-17 22:21:20 DEBUG AbstractDirtiesContextTestExecutionListener:107 - Before test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:372 - Creating new transaction with name [com.spring.web.service.impl.CourseServiceImpl.selectCurrentCourses]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:264 - Acquired Connection [com.mysql.jdbc.JDBC4Connection@1f010bf0] for JDBC transaction
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:281 - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f010bf0] to manual commit
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Creating a new SqlSession
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7803bfd]
+2019-03-17 22:21:20 DEBUG SpringManagedTransaction:49 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f010bf0] will be managed by Spring
+2019-03-17 22:21:20 DEBUG selectCurrentCourses:159 - ==>  Preparing: SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 
+2019-03-17 22:21:20 DEBUG selectCurrentCourses:159 - ==> Parameters: 
+2019-03-17 22:21:20 DEBUG selectCurrentCourses:159 - <==      Total: 2
+2019-03-17 22:21:20 DEBUG PreparedStatementPool:129 - stmt enter cache
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7803bfd]
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7803bfd]
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7803bfd]
+2019-03-17 22:21:20 DEBUG SqlSessionUtils:49 - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7803bfd]
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:743 - Initiating transaction commit
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:326 - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@1f010bf0]
+2019-03-17 22:21:20 DEBUG DataSourceTransactionManager:384 - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f010bf0] after transaction
+2019-03-17 22:21:20 DEBUG AbstractDirtiesContextTestExecutionListener:107 - After test method: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = com.spring.web.service.impl.CourseServiceImplTest@4973813a, testMethod = selectCurrentCourses@CourseServiceImplTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-03-17 22:21:20 DEBUG AbstractDirtiesContextTestExecutionListener:142 - After test class: context [DefaultTestContext@578486a3 testClass = CourseServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@551aa95a testClass = CourseServiceImplTest, locations = '{classpath:/spring_mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-17 22:21:20 DEBUG GenericApplicationContext:1002 - Closing org.springframework.context.support.GenericApplicationContext@15d0c81b, started on Sun Mar 17 22:21:18 CST 2019
+2019-03-17 22:21:20 DEBUG PreparedStatementPool:160 - stmt exit cache
+2019-03-17 22:21:20  INFO DruidDataSource:1928 - {dataSource-1} closed
